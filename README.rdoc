@@ -1,0 +1,23 @@
+== README
+
+Breaks the game into the following classes:
+
+Board
+  - Contains array of three arrays representing board
+  - Checks whether any game ending states exist on the board
+	
+TicTacToe
+  - Asks human and computer players for input
+  - Repeats this process until the game is over
+	
+Human Player
+  - Provides method for human player to input a move
+	
+Computer Player
+  - Provides method for computer player to select a random move
+	
+TicTacToeNode
+  - Creates representations of next game states using nodes
+	
+SuperComputerPlayer
+  - Implements TicTacToeNodes and depth first search to select only moves that result in it winning or tying
